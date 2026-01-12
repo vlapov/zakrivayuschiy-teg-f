@@ -23,5 +23,5 @@
 }
 
 .filter__invert-bright {
-  filter: invert(100%) brightness(200%);
+  filter: invert(100%) brightness(200%) drop-shadow(4px 4px 8px black);
 }
