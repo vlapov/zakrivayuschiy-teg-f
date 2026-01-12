@@ -1,1 +1,20 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font: 'Inter-Variable';
+  --main-font-normal: 'wght' 410;
+  --main-font-bold: 'wght' 715;
+  --font-accent: 'PressStart2P';
+  --page-background: repeating-linear-gradient(
+      to right,
+      #d3d3d3 0 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
+  --card-width: clamp(23.438rem, 16.285rem + 30.516vi, 43.75rem);
+  --card-background: #fff;
+  --header-height: clamp(20.438rem, 19.535rem + 3.85vi, 23rem);
+  --text-stroke-color: #fff;
+  --contour-color: #000;
+  --animation-fill-color: #ff0000;
+}
