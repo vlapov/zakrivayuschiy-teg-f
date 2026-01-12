@@ -11,15 +11,15 @@
 */
 
 .page {
-  padding-block-start: 100px;
+  padding-block-start: 98px;
   font-family: var(--main-font), sans-serif;
   background-image: var(--page-background);
   background-size: cover;
   background-attachment: fixed;
-  -webkit-padding-before: 100px;
+  -webkit-padding-before: 98px;
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  font-variation-settings: var(--main-font-normal);
+  font-variation-settings: 'wght' var(--main-font-normal);
 }
 
 .header {
@@ -28,11 +28,12 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
-  height: var(--header-height);
+  padding: clamp(7.625rem, 7.449rem + 0.751vi, 8.125rem) 0
+    clamp(7.625rem, 7.449rem + 0.751vi, 8.125rem);
   margin-inline: auto;
-  margin-block-end: 98px;
+  margin-block-end: 96px;
   font-family: var(--font-accent), fantasy;
-  -webkit-margin-after: 98px;
+  -webkit-margin-after: 96px;
 }
 
 .header__title {
@@ -69,7 +70,7 @@
 
 .card__title {
   font-size: 18px;
-  font-variation-settings: var(--main-font-bold);
+  font-variation-settings: 'wght' var(--main-font-bold);
 }
 
 .card__image {
@@ -267,8 +268,8 @@
 
 @media (width <= 375px) {
   .header {
-    margin-block-end: 101px;
-    -webkit-margin-after: 101px;
+    margin-block-end: 99px;
+    -webkit-margin-after: 99px;
   }
 
   .button__footer {
